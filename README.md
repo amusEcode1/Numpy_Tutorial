@@ -13,15 +13,15 @@ Before running the scripts, ensure you have the following installed:
 - A code editor (e.g., Visual Studio Code, Jupyter Notebook, or PyCharm)
   
 ## Installing
-To install NumPy and clone the repository, run:
+To install NumPy:
 ```sh
 pip install numpy
 ```
-- Clone this repository using:
+Clone this repository using:
 ```sh
 git clone https://github.com/amusEcode1/Learn_Numpy.git
 ```
-- Navigate to the Cloned Repository
+Navigate to the Cloned Repository
 ```sh
 cd Learn_Numpy
 ```
