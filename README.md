@@ -34,8 +34,9 @@ If you encounter any issues:
 
 ## Author
 👤 Oluyale Ezekiel
+- Email: amusecode@gmail.com
 - Twitter: @amusEcode1
-- GitHub: amusEcode1
+- GitHub: [Learn_Numpy](https://github.com/amusEcode1/Learn_Numpy)
 
 ## Acknowledgments
 - Special thanks to [Numpy](https://numpy.org/)
