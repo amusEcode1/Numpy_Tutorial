@@ -35,7 +35,7 @@ If you encounter any issues:
 ## Author
 👤 Oluyale Ezekiel
 - Email: amusecode@gmail.com
-- Twitter: @amusEcode1
+- Twitter: [@amusEcode1](https://x.com/amusEcode1?t=uHxhLzrA1TShRiSMrYZQiQ&s=09)
 - GitHub: [Learn_Numpy](https://github.com/amusEcode1/Learn_Numpy)
 
 ## Acknowledgments
@@ -43,5 +43,3 @@ If you encounter any issues:
 - Inspired by [W3Schools](https://www.w3schools.com/python/numpy/)
 
 Happy Learning & Coding with NumPy!
-
-
