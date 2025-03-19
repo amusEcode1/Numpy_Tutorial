@@ -16,8 +16,15 @@ Before running the scripts, ensure you have the following installed:
 To install NumPy and clone the repository, run:
 ```sh
 pip install numpy
+```
+- Clone this repository using:
+```sh
 git clone https://github.com/amusEcode1/Learn_Numpy.git
+```
+- Navigate to the Cloned Repository
+```sh
 cd Learn_Numpy
+```
 
 ## Help
 If you encounter any issues:
