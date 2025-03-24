@@ -1,0 +1,73 @@
+import numpy as np
+print('Joining 1-D NumPy Arrays')
+arr1 = np.array([1,2,3,4])
+arr2 = np.array([5,6,7,8])
+result = np.concatenate((arr1, arr2))
+print(result, '\n')
+
+print('\nJoining 2-D NumPy Arrays along rows (axis = 0)')
+arr1 = np.array([[1,2],[3,4]])
+arr2 = np.array([[5,6],[7,8]])
+result = np.concatenate((arr1, arr2), axis = 0)
+print(result)
+
+print('\nJoining 2-D NumPy Arrays along columns (axis = 1)')
+arr1 = np.array([[1,2],[3,4]])
+arr2 = np.array([[5,6],[7,8]])
+result = np.concatenate((arr1, arr2), axis = 1)
+print(result)
+
+print('\n Joining Arrays using stack functions along rows => stack adds an extra dimension')
+arr1 = np.array([1,2,3,4])
+arr2 = np.array([5,6,7,8])
+result = np.stack((arr1, arr2), axis = 0)
+print(result)
+
+print('\n Joining Arrays using stack functions along columns => stack adds an extra dimension')
+arr1 = np.array([1,2,3,4])
+arr2 = np.array([5,6,7,8])
+result = np.stack((arr1, arr2), axis = 1)
+print(result)
+
+print('\n Staking along rows using hstack')
+arr1 = np.array([1,2,3,4])
+arr2 = np.array([5,6,7,8])
+result = np.hstack((arr1, arr2))
+print(result, '\n')
+
+arr1 = np.array([[1,2],[3,4]])
+arr2 = np.array([[5,6],[7,8]])
+result = np.hstack((arr1, arr2))
+print(result)
+
+print('\n Staking along columns using vstack')
+arr1 = np.array([1,2,3,4])
+arr2 = np.array([5,6,7,8])
+result = np.vstack((arr1, arr2))
+print(result, '\n')
+
+arr1 = np.array([[1,2],[3,4]])
+arr2 = np.array([[5,6],[7,8]])
+result = np.vstack((arr1, arr2))
+print(result, '\n')
+
+arr1 = np.array([[[1,2,3],[4,5,6]],[[7,8,9],[10,11,12]]])
+arr2 = result = np.array([[[13,14,15],[16,17,18]],[[19,20,21],[22,23,24]]])
+result = np.hstack((arr1, arr2))
+print(result)
+
+print('\nStaking along height (depth)')
+arr1 = np.array([1,2,3,4])
+arr2 = np.array([5,6,7,8])
+result = np.dstack((arr1, arr2))
+print(result, '\n')
+
+arr1 = np.array([[1,2],[3,4]])
+arr2 = np.array([[5,6],[7,8]])
+result = np.dstack((arr1, arr2))
+print(result, '\n')
+
+arr1 = np.array([[[1,2,3],[4,5,6]],[[7,8,9],[10,11,12]]])
+arr2 = result = np.array([[[13,14,15],[16,17,18]],[[19,20,21],[22,23,24]]])
+result = np.dstack((arr1, arr2))
+print(result)
