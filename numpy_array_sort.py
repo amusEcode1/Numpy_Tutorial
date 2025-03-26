@@ -1,4 +1,5 @@
 import numpy as np
+# Sort() returns copy of an array without changing the original array
 print('Sorting 1-D Array Arrays')
 arr = np.array([5,3,4,6,7,1,2,9,8])
 result = np.sort(arr)
