@@ -10,7 +10,7 @@ This project is a structured repository to help learners understand NumPy, a pow
 Before running the scripts, ensure you have the following installed:
 - Python 3.x
 - NumPy library
-- A code editor (e.g., Visual Studio Code, Jupyter Notebook, or PyCharm)
+- A code editor e.g Visual Studio Code
   
 ## Installing
 To install NumPy:
