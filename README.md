@@ -23,11 +23,11 @@ pip install seaborn
 ```
 Clone this repository using:
 ```sh
-git clone https://github.com/amusEcode1/Learn_Numpy.git
+git clone https://github.com/amusEcode1/Numpy_Tutorial.git
 ```
 Navigate to the Cloned Repository
 ```sh
-cd Learn_Numpy
+cd Numpy_Tutorial
 ```
 
 ## Help
