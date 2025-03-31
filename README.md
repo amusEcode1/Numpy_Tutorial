@@ -17,6 +17,10 @@ To install NumPy:
 ```sh
 pip install numpy
 ```
+To install Seaborn:
+```sh
+pip install seaborn
+```
 Clone this repository using:
 ```sh
 git clone https://github.com/amusEcode1/Learn_Numpy.git
