@@ -38,7 +38,7 @@ If you encounter any issues:
 
 ## Author
 👤 Oluyale Ezekiel
-- Email: amusecode@gmail.com
+- Email: ezekieloluyale@gmail.com
 - Twitter: [@amusEcode1](https://x.com/amusEcode1?t=uHxhLzrA1TShRiSMrYZQiQ&s=09)
 - GitHub: [Learn_Numpy](https://github.com/amusEcode1/Learn_Numpy)
 
