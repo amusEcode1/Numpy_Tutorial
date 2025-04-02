@@ -10,6 +10,10 @@ sns.displot(random.uniform(size = 2000), kind = 'kde')
 plt.title('Visualization of Uniform Distribution')
 plt.show()
 
+sns.displot(random.uniform(low = 10, high = 20, size = 2000), kind = 'kde')
+plt.title('Visualization of Uniform Distribution')
+plt.show()
+
 print('\nDifference between Normal and Uniform Distribution')
 data = {
     'normal': random.normal(loc = 4, scale = 9, size = 2000),
