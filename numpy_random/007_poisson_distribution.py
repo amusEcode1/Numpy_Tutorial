@@ -19,7 +19,7 @@ sns.displot(data, kind = 'kde')
 plt.title('Normal Distribution vs Poisson Distribution')
 plt.show()
 
-print('Difference between Binomial and Poisson Distribution')
+print('\nDifference between Binomial and Poisson Distribution')
 data = {
     'binomial': random.binomial(n = 10, p = 0.8, size = 600),
     'poisson': random.poisson(lam = 9, size = 800)
