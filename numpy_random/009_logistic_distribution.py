@@ -22,7 +22,7 @@ plt.show()
 
 print('\nDifference between Poisson and Logistic Distribution')
 data = {
-    'normal': random.poisson(lam = 6, size = 2000),
+    'poisson': random.poisson(lam = 6, size = 2000),
     'logistic': random.logistic(size = 1000)
 }
 sns.displot(data, kind = 'kde')
