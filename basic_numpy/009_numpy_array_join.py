@@ -40,6 +40,11 @@ arr2 = np.array([[5,6],[7,8]])
 result = np.hstack((arr1, arr2))
 print(result)
 
+arr1 = np.array([[[1,2,3],[4,5,6]],[[7,8,9],[10,11,12]]])
+arr2 = result = np.array([[[13,14,15],[16,17,18]],[[19,20,21],[22,23,24]]])
+result = np.hstack((arr1, arr2))
+print(result)
+
 print('\n Staking along columns using vstack')
 arr1 = np.array([1,2,3,4])
 arr2 = np.array([5,6,7,8])
@@ -53,7 +58,7 @@ print(result, '\n')
 
 arr1 = np.array([[[1,2,3],[4,5,6]],[[7,8,9],[10,11,12]]])
 arr2 = result = np.array([[[13,14,15],[16,17,18]],[[19,20,21],[22,23,24]]])
-result = np.hstack((arr1, arr2))
+result = np.vstack((arr1, arr2))
 print(result)
 
 print('\nStaking along height (depth)')
