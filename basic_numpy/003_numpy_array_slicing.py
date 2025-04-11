@@ -24,27 +24,27 @@ arr = np.array([4,5,6,7,8,9])
 print(arr[1:4:2]) #STEP (2) => Moving forward to pick every 2nd Element
 print(arr[::1])
 
-print('Positive step of 2-D Array')
+print('\nPositive step of 2-D Array')
 arr = np.array([[6,4,6,3],[7,3,4,5],[7,2,4,5]])
 print(arr[:, ::2])
 
-print('Positive step of 3-D Array')
+print('\nPositive step of 3-D Array')
 arr = np.array([[[6,4,6,3],[7,3,4,5]],[[7,2,4,5],[2,3,6,8]]])
 print(arr[:, :, ::3])
 
-print('\n Negative STEP, STEP < 0')
+print('\nNegative STEP, STEP < 0')
 print('Negative step of 1-D Array')
 arr = np.array([2,3,4,5,6,7,8,9])
 print(arr[::-2]) #STEP (-2) => Moving backword to pick every 2nd Element
 print(arr[::-1])
 print(arr[7:1:-1]) #Moving backword to pick all element starting at index 7 & end at index 1
 
-print('Negative step of 2-D Array')
+print('\nNegative step of 2-D Array')
 arr = np.array([[1,2,3,4],[5,6,7,8],[9,10,11,12]])
 print(arr[::-1, :])
 print(arr[:, ::-1])
 
-print('Negative step of 3-D Array')
+print('\nNegative step of 3-D Array')
 arr = np.array([[[4,5,3,7],[2,1,4,6]],[[8,4,5,7],[2,5,7,8]],[[3,7,2,9],[2,1,7,5]]])
 print(arr[::-2, :, :])
 print(arr[:, ::-1, ::-2])
