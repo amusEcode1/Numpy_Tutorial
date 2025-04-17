@@ -35,7 +35,7 @@ print(result)
 
 print('\nMultiple values without duplicate')
 arr = np.array([2,4,6,9])
-result1 = np.searchsorted(arr, [1,3,7], side = 'right')
+result1 = np.searchsorted(arr, [1,3,7], side = 'left')
 result2 = np.searchsorted(arr, [1,3,7], side = 'right')
 print(f'Left: {result1}')
 print(f'Right: {result2}')
